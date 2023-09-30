@@ -14,8 +14,8 @@ const Page5 = () => {
       <Image
         src={qr}
         alt="QR Code"
-        width={400} // Set a smaller width value
-        height={400} // Set a smaller height value
+        width={400} 
+        height={400} 
         layout="responsive"
         className="object-center"
       />

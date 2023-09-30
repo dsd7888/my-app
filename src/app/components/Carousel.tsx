@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import Image from 'next/image'; // Import the Next.js Image component
+import Image from 'next/image'; 
 import Pho from '../assets/Pho.webp';
 import left from '../assets/left.webp'
 import right from '../assets/right.webp';
@@ -8,8 +8,6 @@ const Carousel = () => {
   const images = [
     merge2,
     left,
-    
-    // Add other image paths here as needed
   ];
 
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -25,7 +23,7 @@ const Carousel = () => {
     if (autoplay) {
       intervalId = setInterval(() => {
         setCurrentSlide((prevSlide) => (prevSlide + 1) % images.length);
-      }, 3000); // Change slide every 3 seconds (adjust as needed)
+      }, 3000); 
     }
 
     return () => clearInterval(intervalId);

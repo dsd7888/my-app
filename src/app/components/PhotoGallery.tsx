@@ -10,7 +10,7 @@
 
     useEffect(() => {
       const handleScroll = () => {
-        const scrollThreshold = 1000; // Adjust this value based on your design
+        const scrollThreshold = 1000; 
 
         if (window.scrollY >= scrollThreshold) {
           setIsOnSecondPage(true);
@@ -42,10 +42,10 @@
           <Image
             src={Pho}
             alt="my profile"
-            width="100%" // Set width to 100% for responsiveness
-            height="100%" // Set height to 100% for responsiveness
+            width="100%" 
+            height="100%" 
             layout="responsive"
-            className="object-cover" // Apply object-cover class to zoom and maintain aspect ratio
+            className="object-cover" 
           />
     </div>
   </div>

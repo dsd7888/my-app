@@ -1,14 +1,14 @@
-import React from 'react'
+import React from 'react';
 
 const Nav = () => {
   return (
-<div>
-    <nav className='py-5 flex mx-auto  justify-between text-center fixed '>
-    <div className='ml-3 text-5xl text-green-500'>Slice</div>
-    <div className='mr-3 text-green-500 mt-3 '>HELP CENTER</div>
-  </nav>
-  </div>
-  )
-}
+    <nav className='flex justify-between text-center top-0  w-full fixed '>
+      <div className='ml-3 text-5xl py-5 text-green-500  bg-opacity-50'>
+        Slice
+      </div>
+      <div className='mr-3 text-green-500  py-5 mt-3'>HELP CENTER</div>
+    </nav>
+  );
+};
 
-export default Nav
+export default Nav;
